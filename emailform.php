@@ -22,7 +22,7 @@ $headers .= 'Cc:'. $email2 . "rn"; // Carbon copy to Sender
 $message = wordwrap($message, 70);
 // Send Mail By PHP Mail Function
 mail("chase@pelorus.health", $subject, $message, $headers);
-echo "Your mail has been sent successfuly ! Thank you for your feedback";
+echo "Your mail has been sent successfuly! Thank you for your feedback";
 }
 }
 }
